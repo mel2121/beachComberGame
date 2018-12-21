@@ -1,0 +1,30 @@
+<html>
+<body>
+ <div class="welcome">
+    <H1>Accidental Beach Comber</h1>
+  <p>  Aunt Susie was enjoying the day at the beach so much that she did not notice her wedding ring fell off in the sand. She knows that you are sharp and can use a metal detector. <p> Move your cursor over the sand and pay attention to the dector reading in the upper left corner.  If you hear a promising 'beep', click to dig in the spot. The daylight is running out, and you only have a limited number of digs.
+    Are you willing to help her? </p>
+    <button align=center class="startButton" onclick=startGame()>Yes, let's go!</button>
+    </p>
+  </div>
+<div id="detector">Your dectector reading:<div class="detectorSound"></div></div>
+<div class="container">
+  <div class="plot1" id="gradBeach" 
+       onclick=reader();
+       onmouseover="readPlot();" onmouseout="readPlot();"></div>
+   <div class="plot2" id="gradBeach" onmouseover="readPlot();" onmouseout="readPlot();"
+        onclick=reader();></div>
+  <div class="plot3" id="gradWater" onmouseover="readPlot();" onmouseout="readPlot();" onclick=reader();></div>
+  <div class="plot4" id="gradBeach"><span style="color: #66ccff; font-size: 150px; " onclick=peeper();>&#x2B22;</span></div>
+  <div class="plot5" id="gradBeach"  onmouseover="readPlot();" onmouseout="readPlot();" onclick=reader();></div>
+  <div class="plot6" id="gradWater" onclick=swimmer(); onmouseover="readPlot();" onmouseout="readPlot();" onmouseover="readPlot();" onmouseout="readPlot();" onclick=reader();></div>
+  <div class="plot7" id="gradBeach" onmouseover="readPlot();" onmouseout="readPlot();" onclick=reader();></div>
+  <div class="plot8" id="gradBeach" onclick=reader(); onmouseover="readPlot();" onmouseout="readPlot();" onclick=reader();></div>
+  <div class="plot9" id="gradWater" onclick=reader();></div>
+  <div class="plot10" id="gradBeach" onclick=reader(); onmouseover="readPlot();" onmouseout="readPlot();" onclick=reader();></div>
+  <div class="plot11" id="gradBeach"><div class="frisbee" onmouseover=junk();></div></div>
+  <div class="plot12" id="gradWater" onmouseover="readPlot();" onmouseout="readPlot();" onclick=reader();></div>
+</div>
+    
+</body>
+</html>
