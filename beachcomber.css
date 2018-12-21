@@ -1,0 +1,88 @@
+.plot1{background:PaleTurquoise;}
+.plot1:hover{
+  readPlot();
+}
+.plot2:hover{
+  readPlot();
+}
+.plot2{background:LightSkyBlue;}
+.plot3{background:LightSalmon;}
+.plot4{background:LightPink;}
+.plot5{background:LightSalmon;}
+.plot6{background:PaleGreen;}
+.plot7{background:PaleTurquoise;}
+.plot8{background:LightSkyBlue;}
+.plot9{background:Orange;}
+.plot10{background:PaleGreen;}
+.plot11{background:LightPink;}
+.plot12{background:LightSalmon;}
+#gradWater {
+  height: 200px;
+  background-color: #c2b280; 
+  background-image: linear-gradient(to right, #c2b280 , #e8e4c9, #0077be); 
+}
+.frisbee {
+  height: 40px;
+  width: 40px;
+  background-color: #e2f442;
+  border-radius: 50%;
+ 
+  box-shadow: 3px -3px 3px black;
+}
+#gradBeach {
+   background-image: linear-gradient(to right, #c2b280, #C5B585, #C5B585, #c2b280, #C5B585, #BDAB75, #c2b280); 
+}
+
+.container {
+  min-height: 700px;
+  width: 100%;
+  background: LightGray;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+ 
+}
+body{
+cursor: crosshair;
+ 
+}
+.detector{
+  height: 20px;
+  font-family: Impact;
+}
+
+.welcome {
+  background-color:#1B4469;
+  position:fixed;
+    padding:0;
+    margin:0;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    font-size: 25px;
+  color: #FED766;
+    font-family: Courier;
+}
+.startButton {
+  display: block; 
+   font-family: Courier;
+  background-color: #FED766; 
+  border: black;
+  color: black;
+  padding: 35px 35px;
+  text-align: center;
+  width: 30%;
+  font-size: 20px;
+   margin:0 auto;
+   cursor: pointer;
+  
+}
+h1 {
+  text-align:center;
+}
+
+p {
+  text-indent: 50px;
+  margin: 5%;
+}
